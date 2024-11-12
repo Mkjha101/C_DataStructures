@@ -7,16 +7,15 @@ import random
 
 n=random.randint(5,15)
 Array=[]
-
 for i in range(n):
-    j=random.randint(1,i+5)
-    while(j not in Array):
+    j=random.randint(1,n+5)
+    if(j not in Array):
         Array.append(j)
-print(Array)
+print("Array=",Array,"\n")
 
 print("Index pairs which upholds the eligibility criteria are:")
-for i in range(n):
-    for j in range(i+1,n):
-        for k in range(n):
+for i in range(len(Array)):
+    for j in range(i+1,len(Array)):
+        for k in range(len(Array)):
             if(Array[i]+Array[j]==Array[k]):
                 print(i," ",j," ",k)
