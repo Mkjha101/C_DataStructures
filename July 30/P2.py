@@ -22,13 +22,13 @@ def Array(n):
         List.append(i+1)
     Index=random.randint(1,(len(List)-1))
     List.pop(Index)
-    print(List)
+    print("List = ",List)
     return List
 
-n=random.randint(10,25)
-print("1. n = ",n)
+n=random.randint(6,25)
+# print("1. n = ",n)
 Array=Array(n)
-print("2. List = ", Array)
+# print("2. List = ", Array)
 
 '''
 def DB(Data):
@@ -39,15 +39,19 @@ def DB(Data):
         Data=Binary(Data)
     return Data
 '''
-NewList=[]
+LastBit=[]
 for i in range(len(Array)):
-    NewList.append(Array[i]%2)
+    LastBit.append(Array[i]%2)
+print("NewList = ",LastBit,'\n')
 
-print("3. Binary List = ",NewList)
+# print("3. Binary List = ",NewList)
 
 i=0
-while(i!=len(NewList)):
-    if(NewList[i]^NewList[i+1]==0):
+while(i!=len(LastBit)):
+    if(i==len(LastBit)-1):
+        print("No missing Number!!")
+        break
+    if(LastBit[i]^LastBit[i+1]==0):
+        print("Missing number is: ",Array[i]+1)
         break
     i+=1
-print("Missing number is: ",Array[i]+1)
