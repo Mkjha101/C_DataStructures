@@ -1,4 +1,6 @@
-Aim= List of n given numbers in which we have to print 3 numbers such that a+b=c Algorithm =
+Aim= List of n given numbers in which we have to print 3 numbers such that a+b=c 
+<br>
+Algorithm =
 <ol>
 <li>First we have to take the input of n numbers in an array .</li>
 <li>Then we will start the first loop from i= 1 to n .To select the first element of the array.</li>
