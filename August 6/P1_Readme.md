@@ -1,0 +1,1 @@
+Aim: Making a program to search an element in a list with <b> Linear Search </b>, using (i) Iterative Method (ii) Recursive Method.
