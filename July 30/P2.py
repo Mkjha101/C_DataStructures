@@ -1,6 +1,6 @@
-'''
+"""
 Aim: To find the number missing in the list of N-consecutive numbers, without using any Arithmetic Operation
-'''
+"""
 
 import random
 
