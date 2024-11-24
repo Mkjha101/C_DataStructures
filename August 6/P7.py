@@ -9,7 +9,7 @@ def sumI(List:list,n:int):
     return Ans
 
 def sumR(List: list,n: int, i: int):
-    if(n!=i and n<len(List)):
+    if(n!=i and n<=len(List)):
         return List[n-1]+sumR(List,n-1,i)
     else:
         return 0
