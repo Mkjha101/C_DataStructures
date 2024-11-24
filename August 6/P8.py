@@ -16,6 +16,6 @@ def Pattern(Bool, k, n):
         Bool[k - 1] = 'F'  # Update the same index to 'F'
         Pattern(Bool, k + 1, n)  # Recursive call
 
-n = int(input("Enter number of combinations:\n"))
+n = int(input("Enter number of combinations: "))
 P = []
 Pattern(P, 1, n)
