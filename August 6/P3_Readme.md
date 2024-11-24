@@ -1,7 +1,7 @@
-<h1><b>Aim:</b></h1>
+<h1><b>Aim:</b></h1><br>
 This program calculates the value of the polynomial function 𝑓(𝑥) = 𝑎0 + 𝑎1⋅𝑥^1 +𝑎2⋅𝑥^2 + ⋯ +𝑎𝑁⋅𝑥^𝑁 using an Iterative Method. The coefficients of the polynomial are stored in an array, and the value of 𝑥 is input by the user.
 <br>
-<b>Algorithm</b>:<br>
+<h1><b>Algorithm</b>:</h1><br>
 <b>Iterative Method</b>:<br>
 <ol>
 <li>Input: A list Array containing the coefficients of the polynomial (from 𝑎0 to 𝑎N) and the value of 𝑥.</li>

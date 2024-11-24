@@ -28,13 +28,13 @@ This program demonstrates Binary Search on a sorted array using both Iterative a
 <li>If low becomes greater than high, return "Not Found".</li>
 </ol>
 <br>
-<b>Output Format</b>:
+<h1><b>Output Format</b>:</h1>
 <ul>
 <li>If the element is found: The program will print the index of the element in the array (0-based index).</li>
 <li>If the element is not found: The program will print a message: "Element Not Found!"</li>
 </ul>
 <br>
-<b>Time Complexity</b>:
+<h1><b>Time Complexity</b>:</h1>
 <br>
 <b>Iterative Binary Search (Iteration)</b>:<br>
 <ul>
