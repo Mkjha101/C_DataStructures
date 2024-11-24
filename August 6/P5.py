@@ -1,5 +1,5 @@
 """
-Aim: To plot graph for "Time Complexity" of "Linear Search using Recursive method".
+Aim: To plot graph for "Time Complexity" of "Binary Search using Recursive method".
 """
 
 import time
