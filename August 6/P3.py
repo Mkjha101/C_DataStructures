@@ -1,4 +1,4 @@
-# Aim: To make a program for executing the function f(x) = a0 + a1*x^1 + + a2*x^2 + ... + + aN*x^N, using Iterative and Recursive methods.
+# Aim: To make a program for executing the function f(x) = a0 + a1*x^1 + + a2*x^2 + ... + + aN*x^N, using Iterative methods.
 
 """
 For constant coefficients, array will be passed with those coefficients. Array will be already given.

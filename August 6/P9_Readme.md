@@ -1,7 +1,7 @@
 <h2>Aim:</h2>
-    <p>
-        To create a program to evaluate the polynomial function <code>f(x) = a<sub>0</sub> + a<sub>1</sub>*x<sup>1</sup> + a<sub>2</sub>*x<sup>2</sup> + ... + a<sub>N</sub>*x<sup>N</sup></code>, using both iterative and recursive methods.
-    </p>
+<p>
+    To create a program to evaluate the polynomial function <code>f(x) = a<sub>0</sub> + a<sub>1</sub>*x<sup>1</sup> + a<sub>2</sub>*x<sup>2</sup> + ... + a<sub>N</sub>*x<sup>N</sup></code>, using recursive methods.
+</p>
 <h2>Algorithm:</h2>
 <ol>
     <li>Define a recursive function <code>Function</code> with parameters:
@@ -21,6 +21,7 @@
             <li>Return the current term <code>Array[i-1] * (x ** (i-1))</code> added to the result of the recursive call with <code>i-1</code>.</li>
         </ul>
     </li>
+    <li>Accept user input for <code>x</code>.</li>
     <li>Display the polynomial and the calculated result using a formatted output.</li>
 </ol>
 <h2>Input:</h2>
